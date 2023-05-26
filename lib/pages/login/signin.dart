@@ -1,3 +1,4 @@
+import 'package:ceres_all/pages/home/service_page.dart';
 import 'package:flutter/material.dart';
 
 class SignIn extends StatefulWidget {
@@ -109,7 +110,9 @@ class _SignInState extends State<SignIn> {
                     Padding(
                       padding: const EdgeInsets.only(top: 20),
                       child: MaterialButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => const ServicePage(),));
+                        },
                         color: const Color(0xffFF2D55),
                         elevation: 0,
                         minWidth: 350,
