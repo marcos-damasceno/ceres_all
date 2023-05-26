@@ -77,7 +77,7 @@ class _ServicePageState extends State<ServicePage>
             Container(
               padding: const EdgeInsets.only(top: 10),
               width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height / 2 - 40,
+              height: MediaQuery.of(context).size.height / 2 - 140,
               decoration: BoxDecoration(
                 boxShadow: [
                   BoxShadow(
@@ -97,7 +97,7 @@ class _ServicePageState extends State<ServicePage>
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 130),
+                        padding: const EdgeInsets.only(left: 150),
                         child: Container(
                           height: 105,
                           width: 105,
@@ -139,6 +139,150 @@ class _ServicePageState extends State<ServicePage>
                         fontSize: 30,
                         fontWeight: FontWeight.w700,
                       ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 20, right: 20),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Container(
+                          height: 60,
+                          width: 60,
+                          decoration: BoxDecoration(
+                            color: const Color(0xff274059),
+                            borderRadius: BorderRadius.circular(30),
+                            boxShadow: const [
+                              BoxShadow(
+                                color: Color(0xff274059),
+                                spreadRadius: 1,
+                              )
+                            ],
+                          ),
+                          child: const Padding(
+                            padding: EdgeInsets.all(4),
+                            child: Column(
+                              children: [
+                                Icon(
+                                  Icons.photo_camera,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  height: 3,
+                                ),
+                                Text(
+                                  'Camêra',
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        Container(
+                          height: 60,
+                          width: 60,
+                          decoration: BoxDecoration(
+                            color: const Color(0xff274059),
+                            borderRadius: BorderRadius.circular(30),
+                            boxShadow: const [
+                              BoxShadow(
+                                color: Color(0xff274059),
+                                spreadRadius: 1,
+                              ),
+                            ],
+                          ),
+                          child: const Padding(
+                            padding: EdgeInsets.all(4),
+                            child: Column(
+                              children: [
+                                Icon(
+                                  Icons.photo_camera,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  height: 3,
+                                ),
+                                Text(
+                                  'Camêra',
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        Container(
+                          height: 60,
+                          width: 60,
+                          decoration: BoxDecoration(
+                            color: const Color(0xff274059),
+                            borderRadius: BorderRadius.circular(30),
+                            boxShadow: const [
+                              BoxShadow(
+                                color: Color(0xff274059),
+                                spreadRadius: 1,
+                              )
+                            ],
+                          ),
+                          child: const Padding(
+                            padding: EdgeInsets.all(4),
+                            child: Column(
+                              children: [
+                                Icon(
+                                  Icons.photo_camera,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  height: 3,
+                                ),
+                                Text(
+                                  'Camêra',
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        Container(
+                          height: 60,
+                          width: 60,
+                          decoration: BoxDecoration(
+                            color: const Color(0xff274059),
+                            borderRadius: BorderRadius.circular(30),
+                            boxShadow: const [
+                              BoxShadow(
+                                color: Color(0xff274059),
+                                spreadRadius: 1,
+                              )
+                            ],
+                          ),
+                          child: const Padding(
+                            padding: EdgeInsets.all(4),
+                            child: Column(
+                              children: [
+                                Icon(
+                                  Icons.photo_camera,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  height: 3,
+                                ),
+                                Text(
+                                  'Camêra',
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                 ],
