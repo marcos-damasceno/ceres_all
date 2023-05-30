@@ -113,7 +113,7 @@ class _ServicePageState extends State<ServicePage>
                           child: const CircleAvatar(
                             radius: 50,
                             backgroundImage:
-                                AssetImage('assets/photos/selena.jpg'),
+                                AssetImage('assets/photos/marcos.jpg'),
                           ),
                         ),
                       ),
