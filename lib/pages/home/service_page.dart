@@ -360,14 +360,11 @@ class _ServicePageState extends State<ServicePage>
                       return SizedBox(
                         height: MediaQuery.of(context).size.height * 0.30,
                         width: MediaQuery.of(context).size.width,
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(20),
-                          child: Card(
-                            elevation: 3,
-                            color: Colors.white,
-                            //color: const Color(0xff274059),
-                            child: card,
-                          ),
+                        child: Card(
+                          elevation: 3,
+                          color: Colors.white,
+                          //color: const Color(0xff274059),
+                          child: card,
                         ),
                       );
                     });
@@ -496,6 +493,14 @@ class Item1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: const BoxDecoration(
+        /*
+        boxShadow: [
+          BoxShadow(
+              color: Colors.black87.withOpacity(0.5),
+              blurRadius: 8,
+              spreadRadius: 4)
+        ],
+        */
         gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
